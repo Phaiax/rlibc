@@ -16,3 +16,13 @@ implicitly insert calls to such functions.
 
 [features]
 weak = []
+
+[target.thumbv6m-none-eabi.dependencies]
+rust-libcore = "*"
+
+[target.thumbv7m-none-eabi.dependencies]
+rust-libcore = "*"
+
+[target.thumbv7em-none-eabi.dependencies]
+rust-libcore = "*"
+
